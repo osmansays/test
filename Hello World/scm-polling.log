@@ -1,0 +1,10 @@
+Started on Jul 20, 2019 2:59:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 8231af0b624dbf3639919727f9a5113be9c7e211 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/osmansays/test.git # timeout=10
+Found 1 remote heads on https://github.com/osmansays/test.git
+[poll] Latest remote head revision on refs/heads/master is: 8231af0b624dbf3639919727f9a5113be9c7e211 - already built by 3
+Done. Took 0.85 sec
+No changes

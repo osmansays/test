@@ -1,0 +1,26 @@
+Started by user [8mha:////4BbNipqdW8QvyvBznXbVurklSboX/g7KnEUFZnMtNF2TAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLcxDwAr+3J4cAAAAA=[0mosman Elamin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Hello World
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/osmansays/test.git
+ > git init /var/lib/jenkins/workspace/Hello World # timeout=10
+Fetching upstream changes from https://github.com/osmansays/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/osmansays/test.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/osmansays/test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/osmansays/test.git # timeout=10
+Fetching upstream changes from https://github.com/osmansays/test.git
+ > git fetch --tags --progress https://github.com/osmansays/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8231af0b624dbf3639919727f9a5113be9c7e211 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8231af0b624dbf3639919727f9a5113be9c7e211
+Commit message: "Update index.html"
+First time build. Skipping changelog.
+[Hello World] $ /bin/sh -xe /tmp/jenkins1780147935878216213.sh
++ echo Hello World
+Hello World
+Finished: SUCCESS

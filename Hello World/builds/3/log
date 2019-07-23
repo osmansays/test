@@ -1,0 +1,21 @@
+Started by user [8mha:////4BbNipqdW8QvyvBznXbVurklSboX/g7KnEUFZnMtNF2TAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLcxDwAr+3J4cAAAAA=[0mosman Elamin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Hello World
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/osmansays/test.git # timeout=10
+Fetching upstream changes from https://github.com/osmansays/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/osmansays/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8231af0b624dbf3639919727f9a5113be9c7e211 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8231af0b624dbf3639919727f9a5113be9c7e211
+Commit message: "Update index.html"
+ > git rev-list --no-walk 8231af0b624dbf3639919727f9a5113be9c7e211 # timeout=10
+[Hello World] $ /bin/sh -xe /tmp/jenkins1392678316985503825.sh
++ echo Hello World
+Hello World
+Finished: SUCCESS

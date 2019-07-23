@@ -1,0 +1,10 @@
+Started on Jul 23, 2019 7:10:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 5e377755b086788c6b195a4bf782b0cdb53262c3 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/edureka-git/devops.git # timeout=10
+Found 1 remote heads on https://github.com/edureka-git/devops.git
+[poll] Latest remote head revision on refs/heads/master is: 5e377755b086788c6b195a4bf782b0cdb53262c3 - already built by 5
+Done. Took 1 sec
+No changes

@@ -1,0 +1,22 @@
+Started by GitHub push by osmansays
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Hello World
+using credential 154f6332-5e90-44fe-a8d8-37eace895730
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/osmansays/NOC_Attendance_CI.git # timeout=10
+Fetching upstream changes from https://github.com/osmansays/NOC_Attendance_CI.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/osmansays/NOC_Attendance_CI.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 81cdb1a97a285b22a9d0b9ed8ace03da905201ce (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 81cdb1a97a285b22a9d0b9ed8ace03da905201ce
+Commit message: "test"
+ > git rev-list --no-walk f1095216630bb729d2219376792cc32cebef5af1 # timeout=10
+[Hello World] $ /bin/sh -xe /tmp/jenkins1820874908786133568.sh
++ echo Hello World
+Hello World
+Finished: SUCCESS

@@ -1,0 +1,49 @@
+Started by user [8mha:////4BbNipqdW8QvyvBznXbVurklSboX/g7KnEUFZnMtNF2TAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLcxDwAr+3J4cAAAAA=[0mosman Elamin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/AddressBookReview
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/edureka-git/devops.git # timeout=10
+Fetching upstream changes from https://github.com/edureka-git/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/edureka-git/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5e377755b086788c6b195a4bf782b0cdb53262c3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5e377755b086788c6b195a4bf782b0cdb53262c3
+Commit message: "for demo"
+ > git rev-list --no-walk 5e377755b086788c6b195a4bf782b0cdb53262c3 # timeout=10
+[AddressBookReview] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MyMaven/bin/mvn pmd:pmd
+[INFO] Scanning for projects...
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ----------------< com.edurekademo.tutorial:addressbook >----------------
+[INFO] Building Vaadin Addressbook example 2.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4HTIpRfnJuW0rzlcLafLj5GokxxrN2ZoQGQUho61lxmTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-pmd-plugin:3.12.0:pmd (default-cli) @ addressbook ---
+[8mha:////4AtTYqSrPOVKTpBKbmQJ6GNzxRpjCxPCnN4DkFBgymiAAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.060 s
+[INFO] Finished at: 2019-07-22T21:29:24Z
+[INFO] ------------------------------------------------------------------------
+[PMD] Collecting PMD analysis files...
+[PMD] Searching for all files in /var/lib/jenkins/workspace/AddressBookReview that match the pattern target/pmd.xml
+[PMD] Parsing 1 file in /var/lib/jenkins/workspace/AddressBookReview
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/AddressBookReview/target/pmd.xml with 12 unique warnings and 0 duplicates.
+No credentials specified
+<Git Blamer> Using GitBlamer to create author and commit information for all warnings.
+<Git Blamer> GIT_COMMIT=5e377755b086788c6b195a4bf782b0cdb53262c3, workspace=/var/lib/jenkins/workspace/AddressBookReview
+ > git rev-parse 5e377755b086788c6b195a4bf782b0cdb53262c3^{commit} # timeout=10
+Finished: SUCCESS
